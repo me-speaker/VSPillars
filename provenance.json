@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "release_date": "2026-10-10",
+  "paper_title": "VSPillars: Fourier-Based Height-Distribution Encoding for Aerial LiDAR 3D Detection",
+  "baseline_manuscript_sha256": "256ace4b3c41f1696fd8be373729d3adb928cf26da51bc680926b948da399c07",
+  "scope": "Numerical excerpts of previously completed epoch-80 evaluations and timing runs used in the baseline manuscript; not new experiments.",
+  "transformation": "Evaluation configuration copied exactly. Numeric metric fields and checkpoint hashes retained. Published run identifiers replace local archive directory names. Internal file paths, hostnames, environment records and unrelated metadata omitted. Per-class means are computed from unrounded paired metrics. Each archive SHA-256 refers to the original local JSON, not the sanitized excerpt.",
+  "source_availability": "Original archive JSONs and manuscript snapshot are not included in this repository. Their hashes identify the author's archived inputs; they do not make those inputs publicly retrievable or independently authenticate them.",
+  "seed_note": "Seeds for the main and ablation runs follow the manuscript and archived experiment registry; null seeds for D0/D1 are intentionally unspecified in this supplement.",
+  "sources": [
+    {
+      "id": "P0_seed666",
+      "archive_sha256": "f2249fe9d80bafc1291e169a098b5f81544dd66a505492dd4bce48ea6530409a",
+      "checkpoint_sha256": "301b1e77aa6c51007dd503c1b01a05d22f8af25ea3d9ccf05ef5173d15a43e4a"
+    },
+    {
+      "id": "P0_seed2026",
+      "archive_sha256": "5cec0de163f98884339dab7217a20ca3e821cf576479ce8b0edfa278a5a2d849",
+      "checkpoint_sha256": "32a2ca1f232ecd8b8f1e8a54cbaf5c1ae412c512287adf1826a22ad45b7ef47c"
+    },
+    {
+      "id": "P0_seed4242",
+      "archive_sha256": "53c0699c4110b9c8e35fc3feb7b3dabd5093be9add2ebfac631746d3db6094dc",
+      "checkpoint_sha256": "a66516672b64189907cf062490cbaabd0cefa511436b8dced5218e8fd9128477"
+    },
+    {
+      "id": "P1_seed666",
+      "archive_sha256": "649c98578b4696c27a9699d034d424d0e6ad4e934cbf14b07d7c3de79d142d8b",
+      "checkpoint_sha256": "c386cb3bc583b20ebfc4bd39b4df6a0e4ba9d6d841e4d1fac5f41ed02edb7842"
+    },
+    {
+      "id": "P1_seed2026",
+      "archive_sha256": "52e1830b37c30e7c4ac9382fa36a7dd94f98317421d134e0245ab526f4664eb4",
+      "checkpoint_sha256": "4d1acb793d82a334f86956c0129ba0568dc93a13a4a6a983b8a0a313cbdad090"
+    },
+    {
+      "id": "P1_seed4242",
+      "archive_sha256": "e5d1249b52e678e72f3b385d3eb18de45cb7e704420247b0edde01e18a3a354c",
+      "checkpoint_sha256": "b8ddb56bc5ab55c986a187554d2453e140fda2cbf3459b350667f18c396c5afa"
+    },
+    {
+      "id": "P1S_seed2026",
+      "archive_sha256": "bfed7bccff13cc6c2e0a26733b6df2062531baf9c41f1b07db4a40b8d55e916f",
+      "checkpoint_sha256": "0149a535d4181140d838bd3f69ba06baa12db337da271ecc86a7780a1f4a6e97"
+    },
+    {
+      "id": "P1F_seed2026",
+      "archive_sha256": "066a70c4317a833d52fba0a8c588513f38e45064d89aebd879ace630fdfe66fd",
+      "checkpoint_sha256": "a3e5231fe87885871e28a0ed8b333b5edc0f08613fd440b979599e3a2a8dbd8e"
+    },
+    {
+      "id": "RBF_seed2026",
+      "archive_sha256": "b7f20c119b7a0b9ac889d9e584437ff5054e92fa73addc049826a91762f77f83",
+      "checkpoint_sha256": "1a5f4f78a5e6dc4a4f69cbd3060b531fa15d27828ee2d31fb92083fc3bb90dec"
+    },
+    {
+      "id": "SoftHist_seed2026",
+      "archive_sha256": "ff865ad195144bee4a0a033b4469abb79dca3d4ba9fba946cae480ed0a9dcde0",
+      "checkpoint_sha256": "abb3c386662b1110e78027fb22a8ac0a4520f072b29bc9e289aaa5b61a842899"
+    },
+    {
+      "id": "SoftHist_seed4242",
+      "archive_sha256": "9506d580b8dd2df954f23dcdf9b782737496263db79ba7a8306f3450901981ba",
+      "checkpoint_sha256": "5884707ad93c48f53f1532fbe9372a6767ee22f5aa155abb06bc5dd916801a4c"
+    },
+    {
+      "id": "PillarHist_seed2026",
+      "archive_sha256": "77f246b9681153c39fc30f548fdc6ef03d52a51e7a77485ecef86c4747556c7d",
+      "checkpoint_sha256": "fd79b94b8a5eb43e57ec777223b23c46de157741a97de7b72ebcc683ef537542"
+    },
+    {
+      "id": "P1_K2_seed2026",
+      "archive_sha256": "50ee8eff8380b17fff3f9b70900ab7103f8ad7b2ee244ccba2e93320fbe8bfef",
+      "checkpoint_sha256": "3aad2c384db12565d3e1df14da6fcb03a356aa8383019cd431a9b1bce25b6a91"
+    },
+    {
+      "id": "P1_K4_seed2026",
+      "archive_sha256": "0ab42415184ac6a8b745980735e77c25b50e3b45888d9b04f122ef52b162a789",
+      "checkpoint_sha256": "702eac198038d051129610cfb1f7e497101077d78731d09e357e9bef0b91cfdc"
+    },
+    {
+      "id": "P1_K8_seed2026",
+      "archive_sha256": "ec0ed2abf849fb9b59c0cabf0a53f680dca2a85e266ead38c27f308a8ed1ddd3",
+      "checkpoint_sha256": "a902aa4acdd41e404603e6b6fcd03a6a994737cbfb8a2cfe9354470bd7fd8eca"
+    },
+    {
+      "id": "D0",
+      "archive_sha256": "b9e3ab2c5546c07b4e5c3505d773ab61db9fe8bc3f6b641f586a76c3f489cf86",
+      "checkpoint_sha256": "744be383aa917561e2894cc824577bffe09779b2b05e8335b5af8e9a3e37fc56"
+    },
+    {
+      "id": "D1",
+      "archive_sha256": "ac127bd11aa373d67f1e5f2dd9d6b2f0a7445b9c6f39e6402c93c8d2fea0ce2e",
+      "checkpoint_sha256": "f327ad9aabd6e007bcd52600f8cd53e8a220c78f3adc3be5fc3f0c54a2d921ad"
+    },
+    {
+      "id": "latency_P0_seed666",
+      "archive_sha256": "89222c68d913e9b569c7ddad964442ff587a89166496b2f41ed05108b2dfe3dc",
+      "checkpoint_sha256": "301b1e77aa6c51007dd503c1b01a05d22f8af25ea3d9ccf05ef5173d15a43e4a"
+    },
+    {
+      "id": "latency_P1S_seed2026",
+      "archive_sha256": "f25537bc38986891359de612b517237836fb06d279443756c69b8e7426644e3d",
+      "checkpoint_sha256": "0149a535d4181140d838bd3f69ba06baa12db337da271ecc86a7780a1f4a6e97"
+    },
+    {
+      "id": "latency_P1F_seed2026",
+      "archive_sha256": "de9c171e6515c10438687028538d310a5a8a8a7f2aa53d936943902faa528f4b",
+      "checkpoint_sha256": "a3e5231fe87885871e28a0ed8b333b5edc0f08613fd440b979599e3a2a8dbd8e"
+    },
+    {
+      "id": "latency_P1_seed666",
+      "archive_sha256": "161571b6ac7eca4b54af6c91d2530f4d52bcb5d78c6fe7a4c5264dc660f03dbe",
+      "checkpoint_sha256": "c386cb3bc583b20ebfc4bd39b4df6a0e4ba9d6d841e4d1fac5f41ed02edb7842"
+    }
+  ]
+}
